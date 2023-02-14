@@ -1,0 +1,67 @@
+body {
+  margin: 0 50px;
+  background-color: darkgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.app {
+  background-color: rgb(226, 231, 213);
+  width: 350px;
+  height: 450px;
+  border: 1px solid rgb(146, 219, 128);
+  border-radius: 3px;
+}
+.app #addnew {
+  background-color: rgb(129, 211, 166);
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 10px;
+  font-size: 20px;
+  align-items: center;
+  margin: 20px 30px;
+  border-radius: 10px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.bi {
+  color: rgb(66, 8, 8);
+}
+#add {
+  color: #ffff;
+  background-color: rgb(15, 71, 40);
+  outline: none;
+  border: none;
+}
+#close {
+  color: #ffff;
+  background-color: rgb(133, 17, 84);
+  outline: none;
+  border: none;
+}
+#msg {
+  color: red;
+}
+.text-center {
+  text-align: center;
+  border: 1px solid rgb(25, 87, 10);
+  margin: 10px 40px;
+}
+.icon {
+  font-size: 30px;
+  color: rgb(36, 92, 22);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+.task {
+  align-items: center;
+  padding: 0px 20px;
+  font-size: 20px;
+  margin: 10px 40px;
+  border-radius: 20px;
+  opacity: 0.9;
+}

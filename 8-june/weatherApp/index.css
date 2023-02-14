@@ -1,0 +1,38 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-color: #3498db;
+  font-family: "lato", sans-serif;
+}
+.main {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mainDiv input {
+  border-radius: 50px;
+  background-color: azure;
+  font-size: 30px;
+  padding: 15px;
+  color: rgb(22, 129, 115);
+}
+img {
+  width: 100px;
+  height: 100px;
+}
+.weatherH1 {
+  margin: 30px;
+  display: flex;
+  flex-direction: row;
+  font-size: 40px;
+
+  color: rgb(237, 238, 238);
+}
+#search {
+  font-size: 20px;
+  width: 400px;
+  border: none;
+  outline: none;
+}
